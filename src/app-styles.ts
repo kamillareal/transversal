@@ -1,8 +1,6 @@
 import { styled } from "@mui/material";
 
 export default styled("div")(() => ({
-  body: {
-    margin: "none",
-  },
-  margin: "none",
+  width: "100vw",
+  height: "100vh",
 }));

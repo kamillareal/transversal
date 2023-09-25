@@ -6,4 +6,8 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
-root.render(<App />);
+root.render(
+  <div style={{ width: "100vw", height: "100vh" }}>
+    <App />
+  </div>
+);

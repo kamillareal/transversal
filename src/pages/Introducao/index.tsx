@@ -1,18 +1,47 @@
-import { Fragment } from "react";
 import AppBarHeader from "../../shared/components/app-bar";
 export const Introducao = () => {
   return (
-    <Fragment>
-      <AppBarHeader />
-      <div>
-        A ascensão da inteligência artificial (IA) trouxe consigo uma série de
-        promessas e desafios. Enquanto as aplicações de IA têm o potencial de
-        transformar positivamente a sociedade, também suscitam questões éticas
-        profundas. Este artigo abordará três questões cruciais: racismo
-        algorítmico, privacidade de dados e o impacto social no mercado,
-        destacando exemplos, causas e estratégias para mitigar esses problemas
-        éticos.
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        backgroundColor: "#F5FBEF",
+        color: "rgba(0,0,0,0.7)",
+      }}
+    >
+      <AppBarHeader></AppBarHeader>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          width: "100%",
+          height: "80%",
+          flexDirection: "row-reverse",
+        }}
+      >
+        <img
+          style={{ width: "40%" }}
+          src={require("../../assets/img/ai.png")}
+        ></img>
+
+        <div style={{ width: "100%" }}>
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              listStyle: "none",
+              gap: "1rem",
+              justifyContent: "center",
+            }}
+          >
+            <li>Arthur Barata</li>
+            <li>Amaury santos</li>
+            <li>Matheus cunha</li>
+            <li>Sávio batista</li>
+            <li>Kamilla Peres</li>
+          </ul>
+        </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
