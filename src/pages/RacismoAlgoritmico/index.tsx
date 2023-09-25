@@ -1,3 +1,5 @@
+import { Gap } from "..";
+import grafico from "../../assets/grafico.png";
 import AppBarHeader from "../../shared/components/app-bar";
 
 export const RacismoAlgoritmico = () => {
@@ -31,13 +33,10 @@ export const RacismoAlgoritmico = () => {
         >
           Racismo Algorítimico
         </h2>
-        <img
-          style={{ width: "70%", paddingTop: "2rem" }}
-          src={require("../../assets/img/racism.webp")}
-        ></img>
+        <img style={{ width: "30%", paddingTop: "2rem" }} src={grafico}></img>
 
         <div style={{ width: "80%" }}>
-          <div>
+          <Gap>
             O racismo algorítmico refere-se ao viés discriminatório presente em
             sistemas de inteligência artificial que podem perpetuar preconceitos
             raciais. Isso acontece quando os algoritmos, muitas vezes sem
@@ -49,26 +48,44 @@ export const RacismoAlgoritmico = () => {
             reconhecimento facial da Amazon tinha taxas de erro maiores em
             indivíduos com pele mais escura, gerando preocupações significativas
             de discriminação racial.
-          </div>
+          </Gap>
         </div>
         <div style={{ width: "80%", paddingBottom: "2rem" }}>
           Causas:
-          <br /> 1. Viés nos Dados: Os algoritmos de IA muitas vezes aprendem
-          com dados históricos, refletindo assim os preconceitos existentes na
-          sociedade. 2. Treinamento Deficiente: Algoritmos podem não ser
-          treinados adequadamente em conjuntos de dados diversificados,
-          exacerbando o viés. 3. Falta de Diversidade na Indústria: A falta de
-          diversidade na criação de algoritmos pode resultar na falta de
-          consideração de perspectivas variadas.
+          <Gap>
+            {" "}
+            1. Viés nos Dados: Os algoritmos de IA muitas vezes aprendem com
+            dados históricos, refletindo assim os preconceitos existentes na
+            sociedade.{" "}
+          </Gap>
+          <Gap>
+            2. Treinamento Deficiente: Algoritmos podem não ser treinados
+            adequadamente em conjuntos de dados diversificados, exacerbando o
+            viés.{" "}
+          </Gap>
+          <Gap>
+            3. Falta de Diversidade na Indústria: A falta de diversidade na
+            criação de algoritmos pode resultar na falta de consideração de
+            perspectivas variadas.
+          </Gap>
           <div style={{ paddingTop: "2rem" }}>
             Como evitar:
-            <br /> 1. Dados Diversificados: Utilizar conjuntos de dados
-            abrangentes e diversificados para treinar algoritmos e identificar e
-            mitigar viés nos dados. 2. Auditoria de Algoritmos: Realizar
-            auditorias regulares para identificar e corrigir viés nos
-            algoritmos. 3. Diversidade na Indústria: Promover a diversidade na
-            indústria de IA para trazer perspectivas variadas no desenvolvimento
-            de algoritmos.
+            <Gap>
+              {" "}
+              1. Dados Diversificados: Utilizar conjuntos de dados aGapgentes e
+              diversificados para treinar algoritmos e identificar e mitigar
+              viés nos dados.{" "}
+            </Gap>
+            <Gap>
+              2. Auditoria de Algoritmos: Realizar auditorias regulares para
+              identificar e corrigir viés nos algoritmos.
+            </Gap>
+            <Gap>
+              {" "}
+              3. Diversidade na Indústria: Promover a diversidade na indústria
+              de IA para trazer perspectivas variadas no desenvolvimento de
+              algoritmos.
+            </Gap>
           </div>
         </div>
       </div>
