@@ -1,11 +1,11 @@
-import "./App.css";
+import Container from "./app-styles";
 import MainRoutes from "./routes";
 
 function App() {
   return (
-    <div>
+    <Container>
       <MainRoutes />
-    </div>
+    </Container>
   );
 }
 
