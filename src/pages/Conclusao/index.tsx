@@ -1,6 +1,6 @@
-import { Container, Gap } from "pages";
-import AppBarHeader from "shared/components/app-bar";
+import { Container, Gap } from "..";
 import ia from "../../assets/ia.png";
+import AppBarHeader from "../../shared/components/app-bar";
 
 export const Conclusao = () => {
   return (

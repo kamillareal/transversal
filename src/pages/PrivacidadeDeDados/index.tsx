@@ -1,7 +1,7 @@
-import { Container, Font, Gap } from "pages";
 import { Fragment } from "react";
-import AppBarHeader from "shared/components/app-bar";
 import privacyData from "../../assets/dataPrivacy.png";
+import AppBarHeader from "../../shared/components/app-bar";
+import { Container, Font, Gap } from "../styles";
 
 export const PrivacidadeDeDados = () => {
   return (

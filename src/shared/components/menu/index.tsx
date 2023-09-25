@@ -2,8 +2,11 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
+import { RoutesEnum } from "../../../routes/enum";
 
 export default function BasicMenu() {
+  const navigate = useNavigate();
   const [topics, setTopics] = React.useState<null | HTMLElement>(null);
   const open = Boolean(topics);
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -34,9 +37,15 @@ export default function BasicMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>Racismo algoritímico</MenuItem>
-        <MenuItem onClick={handleClose}>Privacidade de dados</MenuItem>
-        <MenuItem onClick={handleClose}>Impacto no mercado</MenuItem>
+        <MenuItem onClick={() => navigate(RoutesEnum.racismoAlgoritmico)}>
+          Racismo algoritímico
+        </MenuItem>
+        <MenuItem onClick={() => navigate(RoutesEnum.privacidadeDeDados)}>
+          Privacidade de dados
+        </MenuItem>
+        <MenuItem onClick={() => navigate(RoutesEnum.impactoNoMercado)}>
+          Impacto no mercado
+        </MenuItem>
       </Menu>
     </div>
   );
