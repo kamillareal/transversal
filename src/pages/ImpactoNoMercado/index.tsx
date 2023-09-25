@@ -1,3 +1,4 @@
+import { Gap } from "..";
 import AppBarHeader from "../../shared/components/app-bar";
 
 export const ImpactoNoMercado = () => {
@@ -32,12 +33,12 @@ export const ImpactoNoMercado = () => {
           Impacto da automação no mercado
         </h2>
         <img
-          style={{ width: "70%", paddingTop: "2rem" }}
+          style={{ width: "40%", paddingTop: "2rem" }}
           src={require("../../assets/img/racism.webp")}
         ></img>
 
         <div style={{ width: "80%" }}>
-          <div>
+          <Gap>
             O impacto social no mercado refere-se às mudanças significativas que
             a automação e a inteligência artificial estão trazendo para o mundo
             do trabalho e da economia. À medida que mais tarefas são
@@ -48,25 +49,42 @@ export const ImpactoNoMercado = () => {
             prejudique grupos vulneráveis. Exemplo: A automação de tarefas está
             ameaçando empregos em setores como varejo e manufatura, levando a
             preocupações sobre o desemprego em massa.
-          </div>
+          </Gap>
         </div>
         <div style={{ width: "80%", paddingBottom: "2rem" }}>
           Causas:
-          <br /> 1. Disparidade de Impacto: A automação pode afetar
-          desproporcionalmente trabalhadores de baixa renda e minorias. 2. Falta
-          de Educação e Reciclagem: A falta de programas de reciclagem de
-          habilidades pode deixar trabalhadores obsoletos. 3. Falta de
-          Planejamento Estratégico: Empresas e governos podem não estar
-          preparados para lidar com as implicações sociais da automação.
+          <Gap>
+            1. Disparidade de Impacto: A automação pode afetar
+            desproporcionalmente trabalhadores de baixa renda e minorias.{" "}
+          </Gap>{" "}
+          <Gap>
+            2. Falta de Educação e Reciclagem: A falta de programas de
+            reciclagem de habilidades pode deixar trabalhadores obsoletos.
+          </Gap>{" "}
+          <Gap>
+            {" "}
+            3. Falta de Planejamento Estratégico: Empresas e governos podem não
+            estar preparados para lidar com as implicações sociais da automação.
+          </Gap>
           <div style={{ paddingTop: "2rem" }}>
             Como evitar:
-            <br /> 1. Políticas de Educação e Reciclagem: Investir em programas
-            de treinamento e educação para ajudar os trabalhadores a adquirir
-            novas habilidades. 2. Renda Básica Universal: Explorar a
-            implementação de políticas como a renda básica universal para ajudar
-            os afetados pela automação. 3. Planejamento Estratégico: Desenvolver
-            estratégias para lidar com as mudanças sociais e econômicas
-            resultantes da automação.
+            <Gap>
+              {" "}
+              1. Políticas de Educação e Reciclagem: Investir em programas de
+              treinamento e educação para ajudar os trabalhadores a adquirir
+              novas habilidades.
+            </Gap>{" "}
+            <Gap>
+              {" "}
+              2. Renda Básica Universal: Explorar a implementação de políticas
+              como a renda básica universal para ajudar os afetados pela
+              automação.
+            </Gap>{" "}
+            <Gap>
+              {" "}
+              3. Planejamento Estratégico: Desenvolver estratégias para lidar
+              com as mudanças sociais e econômicas resultantes da automação.
+            </Gap>
           </div>
         </div>
       </div>
