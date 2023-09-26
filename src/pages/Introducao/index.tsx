@@ -35,9 +35,9 @@ export const Introducao = () => {
             }}
           >
             <li>Arthur Barata</li>
-            <li>Amaury santos</li>
-            <li>Matheus cunha</li>
-            <li>Sávio batista</li>
+            <li>Amaury Brito</li>
+            <li>Matheus Mendes</li>
+            <li>Sávio Batista</li>
             <li>Kamilla Peres</li>
           </ul>
         </div>
