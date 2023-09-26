@@ -37,6 +37,9 @@ export default function BasicMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
+        <MenuItem onClick={() => navigate(RoutesEnum.introducao)}>
+          Introdução
+        </MenuItem>
         <MenuItem onClick={() => navigate(RoutesEnum.racismoAlgoritmico)}>
           Racismo algoritímico
         </MenuItem>

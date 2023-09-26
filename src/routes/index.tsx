@@ -4,6 +4,7 @@ import { ImpactoNoMercado } from "../pages/ImpactoNoMercado";
 import { Introducao } from "../pages/Introducao";
 import { PrivacidadeDeDados } from "../pages/PrivacidadeDeDados";
 import { RacismoAlgoritmico } from "../pages/RacismoAlgoritmico";
+import { Introducaoo } from "../pages/introducao2";
 import { RoutesEnum } from "./enum";
 
 export default function MainRoutes() {
@@ -11,6 +12,7 @@ export default function MainRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path={RoutesEnum.Home} element={<Introducao />} />
+        <Route path={RoutesEnum.introducao} element={<Introducaoo />} />
         <Route
           path={RoutesEnum.racismoAlgoritmico}
           element={<RacismoAlgoritmico />}
