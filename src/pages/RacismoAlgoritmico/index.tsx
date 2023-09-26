@@ -33,7 +33,7 @@ export const RacismoAlgoritmico = () => {
           Racismo Algorítimico
         </h2>
         <img
-          style={{ width: "30%", paddingTop: "2rem" }}
+          style={{ width: "45%", paddingTop: "2rem" }}
           src={require("../../assets/img/racism.webp")}
         ></img>
 

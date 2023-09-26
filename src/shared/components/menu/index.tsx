@@ -46,6 +46,9 @@ export default function BasicMenu() {
         <MenuItem onClick={() => navigate(RoutesEnum.impactoNoMercado)}>
           Impacto no mercado
         </MenuItem>
+        <MenuItem onClick={() => navigate(RoutesEnum.conclusao)}>
+          Conclusão
+        </MenuItem>
       </Menu>
     </div>
   );
