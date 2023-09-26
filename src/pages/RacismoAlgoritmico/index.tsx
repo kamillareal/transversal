@@ -1,5 +1,4 @@
 import { Gap } from "..";
-import grafico from "../../assets/grafico.png";
 import AppBarHeader from "../../shared/components/app-bar";
 
 export const RacismoAlgoritmico = () => {
@@ -33,7 +32,10 @@ export const RacismoAlgoritmico = () => {
         >
           Racismo Algorítimico
         </h2>
-        <img style={{ width: "30%", paddingTop: "2rem" }} src={grafico}></img>
+        <img
+          style={{ width: "30%", paddingTop: "2rem" }}
+          src={require("../../assets/img/racism.webp")}
+        ></img>
 
         <div style={{ width: "80%" }}>
           <Gap>

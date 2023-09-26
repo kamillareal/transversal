@@ -1,4 +1,5 @@
 import { Gap } from "..";
+import grafico from "../../assets/grafico.png";
 import AppBarHeader from "../../shared/components/app-bar";
 
 export const ImpactoNoMercado = () => {
@@ -32,10 +33,7 @@ export const ImpactoNoMercado = () => {
         >
           Impacto da automação no mercado
         </h2>
-        <img
-          style={{ width: "40%", paddingTop: "2rem" }}
-          src={require("../../assets/img/racism.webp")}
-        ></img>
+        <img style={{ width: "40%", paddingTop: "2rem" }} src={grafico}></img>
 
         <div style={{ width: "80%" }}>
           <Gap>
